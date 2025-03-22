@@ -29,7 +29,7 @@ sudo apt install nano screen build-essential gcc
 ### Install Go
 ```
 sudo rm -rf /usr/local/go
-curl -L https://go.dev/dl/go1.22.4.linux-amd64.tar.gz | sudo tar -xzf - -C /usr/local
+curl -L https://go.dev/dl/go1.23.1.linux-amd64.tar.gz | sudo tar -xzf - -C /usr/local
 echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bash_profile
 echo 'export PATH=$PATH:$(go env GOPATH)/bin' >> $HOME/.bash_profile
 source .bash_profile
