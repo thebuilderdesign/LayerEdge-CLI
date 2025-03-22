@@ -47,11 +47,11 @@ Risc0 Toolchain: If not installed, run:
 
 ```
 curl -L https://risczero.com/install | bash
-rzup install
+source "/root/.bashrc"
 
 ```
 ```
-source "/root/.bashrc"
+rzup install
 ```
 
 ### Step 2: Clone the Light Node Repository
